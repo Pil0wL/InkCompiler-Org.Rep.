@@ -25,4 +25,11 @@
         android:layout_height="56dp"
         android:layout_gravity="bottom"
         app:menu="@menu/bottom_navigation" />
+
+    <FrameLayout
+        android:id="@+id/the_things_of_where_i_put"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+    </FrameLayout>
 </LinearLayout>
