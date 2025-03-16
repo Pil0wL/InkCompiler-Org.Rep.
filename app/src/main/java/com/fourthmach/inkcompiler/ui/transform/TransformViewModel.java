@@ -15,7 +15,7 @@ public class TransformViewModel extends ViewModel {
         mTexts = new MutableLiveData<>();
         List<String> texts = new ArrayList<>();
         for (int i = 1; i <= 16; i++) {
-            texts.add("This is item # " + i);
+            texts.add("This is item # bluh " + i);
         }
         mTexts.setValue(texts);
     }
